@@ -16,3 +16,12 @@
 #welcome{
     text-decoration-line: underline;    
 }
+
+.form{
+    text-align: center;
+}
+
+.form-inline{
+    margin-left: 50%;
+    positio:absolute;
+}

@@ -9,8 +9,10 @@
     margin-top: 2.5%;
 }
 
-#title{
-    color: black;
-    margin-top: 2.5%
-    text-align:center;
+.intro{
+    text-align: center;
+}
+
+#welcome{
+    text-decoration-line: underline;    
 }

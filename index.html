@@ -35,7 +35,8 @@
                 
                 <div class="card-deck">
                     <div class="card bg-danger">
-                        <div class="card-header"><h2><strong>Movie List</strong></h2></div>
+                        <div class="card-header"><h2><strong>Timings</strong><span class="glyphicon glyphicon-star"></span></h2>
+                            </div>
                         <div class="card-body">
                             
             
@@ -85,7 +86,7 @@
                                                             
                                             
                                                                 <ul>
-                                                                    <li>Ant-Man and the Wasp.....<span class="glyphicon glyphicon-star"></span><strong>Rating *7.6</strong></li>
+                                                                    <li>Ant-Man and the Wasp.....<span class="glyphicon glyphicon-star" aria-hidden="true"></span><strong>Rating *7.6</strong></li>
                                                                     <li>Deadpool.....<span class="glyphicon glyphicon-star"></span><strong>Rating *8.1</strong></li>
                                                                     <li>Sicario.....<span class="glyphicon glyphicon-star"></span><strong>Rating *7.4</strong></li>
                                                                     <li>Avengers.....<span class="glyphicon glyphicon-star"></span><strong>Rating *8.6</strong></li>
@@ -97,9 +98,22 @@
                                                                 
                                                                 </div>
                                                                 </div> 
+                                                      
                 </div>
-                
-            
+     <!--form-->   
+          <form>
+              <div class="form-group mx-sm-3 mb-2">
+                  <label for="movieInput">Movie</label>
+                  <input type="movie" class="form-control" aria-describedby="movieHelp" id="movieInput" placeholder="Enter Movie..." >
+                  <small id="movieHelp" class="for-text text-muted">Please Enter Movie Title</small>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+
+
+
             
 
 

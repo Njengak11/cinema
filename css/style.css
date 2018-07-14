@@ -1,0 +1,16 @@
+.banner{
+    text-align: center;
+    text-decoration-line: underline;
+    bottom: 0;
+    height: 15em;
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin-top: 2.5%;
+}
+
+#title{
+    color: black;
+    margin-top: 2.5%
+    text-align:center;
+}
